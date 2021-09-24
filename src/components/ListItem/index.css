@@ -1,0 +1,21 @@
+.listItem {
+	min-width: 300px;
+	display: flex;
+	justify-content: space-between;
+	text-transform: capitalize;
+	align-items: center;
+	border-bottom: 1px solid black;
+	padding: 0.5vh 0;
+}
+.listItem input {
+	margin-right: 1vw;
+}
+.listItem p {
+	margin: 0;
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+.listItem button {
+	min-width: 3vh;
+	min-height: 3vh;
+}

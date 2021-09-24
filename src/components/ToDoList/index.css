@@ -1,0 +1,12 @@
+.separate {
+	margin: 2em;
+	min-width: 10vh;
+}
+.separate h1 {
+	color: rgb(66, 212, 200);
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	text-transform: capitalize;
+	text-align: center;
+	border-bottom: 2px dotted black;
+	padding-bottom: 1vh;
+}

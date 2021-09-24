@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Karla:wght@200;500;800&display=swap');
+
+body {
+	margin: 0;
+	padding: 5em;
+
+	font-family: 'Karla', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+		'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-image: url('https://images.unsplash.com/photo-1616628188467-8fb29f49bbe8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1868&q=80');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+.wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(72, 72, 72, 0.9));
+	border-radius: 5%;
+}
+.outside {
+	margin: 0 auto;
+	max-width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.title {
+	font-size: 4em;
+	letter-spacing: 5px;
+}
+.listPicker input {
+	min-width: 300px;
+	margin-right: 1.5em;
+}
+.listPicker {
+	margin-bottom: 2em;
+}
+.listPicker button {
+	padding: 0.5em;
+	transition: all 0.5s;
+	background-color: #f4511e;
+	border: none;
+	color: #ffffff;
+	width: 130px;
+	border-radius: 5px;
+}
+.listPicker button:hover {
+	background-color: white;
+	color: #f4511e;
+	border: 1px solid #f4511e;
+}
+.main {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+ul {
+	padding: 0;
+}
